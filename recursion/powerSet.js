@@ -20,5 +20,6 @@ function powerset(array) {
       currentValue.pop();
   }
   
-  let array = [[],[1],[2],[3,[1,2],[1,3],[2,3],[1,2,3]]];
-  console.log(`Powerset: ${JSON.stringify(powerset(array))} EQ [[],[3],[2],[2, 3],[1],[1, 3],[1, 2],[1,2, 3]]`);
+  const array = [1, 2, 3];
+  const answer = [[],[1],[2],[3,[1,2],[1,3],[2,3],[1,2,3]]];
+  console.log(`Powerset: ${JSON.stringify(powerset(array))} EQ ${answer}`);
